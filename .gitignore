@@ -1,0 +1,20 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw datasets
+data/raw/
+*.csv
+*.csv.gz
+
+# Generated/processed datasets
+data/processed/
+*.pkl
+
+# Environment files
+.env
