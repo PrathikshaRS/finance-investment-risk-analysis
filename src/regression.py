@@ -1,3 +1,11 @@
+"""
+Phase 6 linear model: R² = 0.096
+Residuals showed heteroscedasticity and banding
+Decile analysis showed the relationship is not proportional across income levels
+At the upper end, income increased by ~63% while loan amount increased only ~10%
+That indicates diminishing returns, i.e. a nonlinear relationship
+Hence we go for Spline Regression
+"""
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
